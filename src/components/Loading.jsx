@@ -1,7 +1,3 @@
-import React from 'react';
-import { BsWhatsapp } from 'react-icons/bs';
-import { FaLock } from 'react-icons/fa';
-
 function Loading({ progress }) {
   return (
     <div className='flex flex-col justify-center items-center bg-[#111a21] w-screen h-screen'>
