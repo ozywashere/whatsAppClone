@@ -13,9 +13,9 @@ const Chats = ({ filter }) => {
 
   return (
     //main container
-    <div className='flex flex-col overflow-y-auto cursor-pointer'>
+    <div className='flex flex-col hover:overflow-y-auto cursor-pointer'>
       {/* Archived Container */}
-      <div className='flex justify-between items-center min-h-[55px] px-3  border-transparent hover:border-r-white'>
+      <div className='flex justify-between items-center min-h-[60px] px-3  border-transparent '>
         <div className='mr-4'>
           <svg
             xmlns='http://www.w3.org/2000/svg'

@@ -135,9 +135,9 @@ const LeftMenu = () => {
   const [filter, setFilter] = useState(false);
   //left menu
   return (
-    <div className='flex flex-col border-r border-neutral-200 h-full w-full '>
+    <div className='flex flex-col border-r border-[#202d33] h-full w-full '>
       {/* profile */}
-      <div className=' h-[60px] flex justify-between items-center bg-[#202d33] px-[10px] py-4 w-full'>
+      <div className=' h-[60px] flex justify-between items-center bg-[#202d33] px-4 py-[10px] w-full'>
         <div className='flex-1 '>
           <div className='h-[40px] w-[40px] cursor-pointer'>
             <img src={profileImg} alt='profile image' className='w-full rounded-full' />

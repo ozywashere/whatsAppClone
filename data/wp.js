@@ -19,7 +19,7 @@ import {
 export const chatsData = [
   {
     pp: cs1,
-    contact: 'Tırşık',
+    contact: 'Durdu',
     msg: 'Aldım Geliyorum!',
     time: '1:15 pm',
     unreadMsgs: 3,
@@ -205,12 +205,12 @@ export const messagesData = [
     sent: true,
   },
   {
-    msg: 'AlejoG10',
+    msg: 'BBB-Tech',
     time: '11:36 am',
     sent: false,
   },
   {
-    msg: 'https://github.com/AlejoG10',
+    msg: 'https://github.com/',
     isLink: true,
     time: '11:36 am',
     sent: false,
@@ -221,12 +221,12 @@ export const messagesData = [
     sent: true,
   },
   {
-    msg: 'Coding Spot',
+    msg: 'BBB Tech',
     time: '11:55 am',
     sent: false,
   },
   {
-    msg: 'https://www.youtube.com/channel/UCLqXQLK6zKZg0trhanjAkkQ',
+    msg: 'https://www.youtube.com/watch?v=Dz1c4ATCFM8',
     isLink: true,
     time: '11:55 am',
     sent: false,
