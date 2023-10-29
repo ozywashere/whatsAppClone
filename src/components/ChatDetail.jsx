@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import RoundedBtn from './common/RoundedBtn';
-import { MdSearch, MdSend } from 'react-icons/md';
+
 import { HiDotsVertical } from 'react-icons/hi';
 import { cs1 } from '../assets/wp';
 import { BsFillMicFill } from 'react-icons/bs';
