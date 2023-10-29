@@ -175,80 +175,30 @@ export const chatsData = [
 
 export const messagesData = [
   {
-    msg: 'Hey wassupp bro!',
-    time: '10:58 am',
-    sent: true,
-  },
-  {
-    msg: 'This WhatsApp clone is firee 🔥',
-    time: '10:58 am',
-    sent: true,
-  },
-  {
-    msg: 'Keep it up! 👍👍👍',
+    msg: 'Shake it, shake it, shake it like a Polaroid Picture! 🎶🎵',
     time: '10:59 am',
     sent: true,
   },
+
   {
-    msg: 'Thanks a lot! 😀',
+    msg: 'Genel bilgiler içeren konuşmalarda içeriği spesifik olarak anlatmaya meal yok yani! 👌👌',
     time: '11:15 am',
     sent: false,
   },
   {
-    msg: 'Make sure to follow all my socials! 👌👌',
-    time: '11:15 am',
-    sent: false,
-  },
-  {
-    msg: "I will! what's your Github?",
+    msg: 'ayrıntı şart',
     time: '11:28 am',
     sent: true,
   },
   {
-    msg: 'BBB-Tech',
+    msg: 'Vi paket sigara aldığında dolu mu alıyosun boş mu',
     time: '11:36 am',
     sent: false,
   },
   {
-    msg: 'https://github.com/',
+    msg: 'et demek le aynı',
     isLink: true,
     time: '11:36 am',
-    sent: false,
-  },
-  {
-    msg: 'And your YouTube channel?',
-    time: '11:47 am',
-    sent: true,
-  },
-  {
-    msg: 'BBB Tech',
-    time: '11:55 am',
-    sent: false,
-  },
-  {
-    msg: 'https://www.youtube.com/watch?v=Dz1c4ATCFM8',
-    isLink: true,
-    time: '11:55 am',
-    sent: false,
-  },
-  {
-    img: cs2,
-    time: '11:56 am',
-    sent: false,
-  },
-  {
-    msg: 'Niceeee channel! 🔥💯',
-    time: '12:35 pm',
-    sent: true,
-  },
-  {
-    msg: 'I will see all of your videos 😉',
-    time: '12:35 pm',
-    sent: true,
-  },
-  {
-    msg: 'Awesome, thank for your support! 🙌',
-    time: '1:15 pm',
     sent: false,
   },
 ];

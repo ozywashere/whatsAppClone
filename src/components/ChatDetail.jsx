@@ -105,8 +105,38 @@ const ChatDetail = () => {
               </span>
             </button>
           </div>
-          <RoundedBtn />
-          <RoundedBtn />
+          <RoundedBtn>
+            <svg
+              viewBox='0 0 24 24'
+              height='24'
+              width='24'
+              preserveAspectRatio='xMidYMid meet'
+              class=''
+              version='1.1'
+              x='0px'
+              y='0px'
+              enable-background='new 0 0 24 24'>
+              <path
+                fill='currentColor'
+                d='M15.9,14.3H15L14.7,14c1-1.1,1.6-2.7,1.6-4.3c0-3.7-3-6.7-6.7-6.7S3,6,3,9.7 s3,6.7,6.7,6.7c1.6,0,3.2-0.6,4.3-1.6l0.3,0.3v0.8l5.1,5.1l1.5-1.5L15.9,14.3z M9.7,14.3c-2.6,0-4.6-2.1-4.6-4.6s2.1-4.6,4.6-4.6 s4.6,2.1,4.6,4.6S12.3,14.3,9.7,14.3z'></path>
+            </svg>
+          </RoundedBtn>
+          <RoundedBtn>
+            <svg
+              viewBox='0 0 24 24'
+              height='24'
+              width='24'
+              preserveAspectRatio='xMidYMid meet'
+              class=''
+              version='1.1'
+              x='0px'
+              y='0px'
+              enable-background='new 0 0 24 24'>
+              <path
+                fill='currentColor'
+                d='M12,7c1.104,0,2-0.896,2-2c0-1.105-0.895-2-2-2c-1.104,0-2,0.894-2,2 C10,6.105,10.895,7,12,7z M12,9c-1.104,0-2,0.894-2,2c0,1.104,0.895,2,2,2c1.104,0,2-0.896,2-2C13.999,9.895,13.104,9,12,9z M12,15 c-1.104,0-2,0.894-2,2c0,1.104,0.895,2,2,2c1.104,0,2-0.896,2-2C13.999,15.894,13.104,15,12,15z'></path>
+            </svg>
+          </RoundedBtn>
         </div>
       </div>
 
@@ -156,7 +186,43 @@ const ChatDetail = () => {
             ref={inputRef}
             onChange={handleInputChange}
           />
-          <span className='ml-2'>{typing ? <RoundedBtn onClick={handleInputSubmit} /> : <RoundedBtn />}</span>
+          <span className='ml-2'>
+            {typing ? (
+              <RoundedBtn onClick={handleInputSubmit}>
+                <svg
+                  viewBox='0 0 24 24'
+                  height='24'
+                  width='24'
+                  preserveAspectRatio='xMidYMid meet'
+                  class=''
+                  version='1.1'
+                  x='0px'
+                  y='0px'
+                  enable-background='new 0 0 24 24'>
+                  <path
+                    fill='currentColor'
+                    d='M1.101,21.757L23.8,12.028L1.101,2.3l0.011,7.912l13.623,1.816L1.112,13.845 L1.101,21.757z'></path>
+                </svg>
+              </RoundedBtn>
+            ) : (
+              <RoundedBtn>
+                <svg
+                  viewBox='0 0 24 24'
+                  height='24'
+                  width='24'
+                  preserveAspectRatio='xMidYMid meet'
+                  class=''
+                  version='1.1'
+                  x='0px'
+                  y='0px'
+                  enable-background='new 0 0 24 24'>
+                  <path
+                    fill='currentColor'
+                    d='M11.999,14.942c2.001,0,3.531-1.53,3.531-3.531V4.35c0-2.001-1.53-3.531-3.531-3.531 S8.469,2.35,8.469,4.35v7.061C8.469,13.412,9.999,14.942,11.999,14.942z M18.237,11.412c0,3.531-2.942,6.002-6.237,6.002 s-6.237-2.471-6.237-6.002H3.761c0,4.001,3.178,7.297,7.061,7.885v3.884h2.354v-3.884c3.884-0.588,7.061-3.884,7.061-7.885 L18.237,11.412z'></path>
+                </svg>
+              </RoundedBtn>
+            )}
+          </span>
         </div>
       </div>
     </div>
