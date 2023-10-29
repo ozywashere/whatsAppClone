@@ -175,30 +175,51 @@ export const chatsData = [
 
 export const messagesData = [
   {
-    msg: 'Shake it, shake it, shake it like a Polaroid Picture! 🎶🎵',
-    time: '10:59 am',
+    msg: 'https://www.youtube.com/watch?v=Ibgy_I4eeHM',
+    isLink: true,
+    time: '21:55 pm',
+    sent: false,
+  },
+  {
+    img: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F5335553.jpg&f=1&nofb=1&ipt=19890609a1274bedbd5efa16fda808b44b26c3c1a61388969872dd6ce49dbcd9&ipo=images',
+    time: '11:56 am',
+    sent: true,
+  },
+  {
+    msg: "Hello, I'm a bot. I'm here to help you with your order. What would you like to order today?",
+    time: '21:36 pm',
+    sent: true,
+  },
+  {
+    msg: 'I want to order a pizza',
+    time: '21:37 pm',
+    sent: false,
+  },
+  {
+    msg: 'What kind of pizza would you like to order?',
+    time: '21:40 pm',
     sent: true,
   },
 
   {
-    msg: 'Genel bilgiler içeren konuşmalarda içeriği spesifik olarak anlatmaya meal yok yani! 👌👌',
-    time: '11:15 am',
-    sent: false,
-  },
-  {
-    msg: 'ayrıntı şart',
-    time: '11:28 am',
+    msg: 'https://www.pizzahut.com.tr/',
+    isLink: true,
+    time: '21:46 pm',
     sent: true,
   },
   {
-    msg: 'Vi paket sigara aldığında dolu mu alıyosun boş mu',
-    time: '11:36 am',
+    msg: 'I will order a pizza from this link',
+    time: '21:47 pm',
     sent: false,
   },
   {
-    msg: 'et demek le aynı',
-    isLink: true,
-    time: '11:36 am',
+    msg: 'Thank you for choosing us. Have a nice day!',
+    time: '21:48 pm',
+    sent: true,
+  },
+  {
+    img: chat1,
+    time: '1:15 pm',
     sent: false,
   },
 ];
