@@ -1,9 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
 import RoundedBtn from './common/RoundedBtn';
 
-import { HiDotsVertical } from 'react-icons/hi';
 import { cs1 } from '../assets/wp';
-import { BsFillMicFill } from 'react-icons/bs';
+
 import { messagesData } from '../../data/wp';
 
 import Message from './Message';
