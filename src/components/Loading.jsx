@@ -2,9 +2,7 @@ function Loading({ progress }) {
   return (
     <div className='flex flex-col justify-center items-center bg-[#111a21] w-screen h-screen'>
       {/* WhatsApp Icon */}
-      <span className='text-[#3d464a] text-6xl my-12'>
-        <BsWhatsapp />
-      </span>
+      <span className='text-[#3d464a] text-6xl my-12'></span>
 
       {/* Loading bar and text */}
       <div className='flex flex-col justify-evenly items-center h-[150px]'>
@@ -20,9 +18,7 @@ function Loading({ progress }) {
           {/* Text */}
           <div className='flex items-center text-[#687782]'>
             {/* Lock */}
-            <span className='text-sm mr-3'>
-              <FaLock />
-            </span>
+            <span className='text-sm mr-3'></span>
 
             {/* Text */}
             <p>End-to-end encrypted</p>

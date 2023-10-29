@@ -105,8 +105,8 @@ const ChatDetail = () => {
               </span>
             </button>
           </div>
-          <RoundedBtn icon={<MdSearch />} size={24} />
-          <RoundedBtn icon={<HiDotsVertical />} />
+          <RoundedBtn />
+          <RoundedBtn />
         </div>
       </div>
 
@@ -156,9 +156,7 @@ const ChatDetail = () => {
             ref={inputRef}
             onChange={handleInputChange}
           />
-          <span className='ml-2'>
-            {typing ? <RoundedBtn icon={<MdSend />} onClick={handleInputSubmit} /> : <RoundedBtn icon={<BsFillMicFill />} />}
-          </span>
+          <span className='ml-2'>{typing ? <RoundedBtn onClick={handleInputSubmit} /> : <RoundedBtn />}</span>
         </div>
       </div>
     </div>
